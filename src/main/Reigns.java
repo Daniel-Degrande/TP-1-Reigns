@@ -10,6 +10,9 @@ import java.util.Scanner;
  * @version 1.0
  */
 public class Reigns {
+
+    private static int nbTours;
+
     /**
      * le personnage joué
      */
@@ -32,21 +35,11 @@ public class Reigns {
         // début du jeu
         initialiser_partie();
 
-        // tirage des questions
-        int nbTours = 0;
-        while(!personnage.finDuJeu()){
-            nbTours++;
-            Question question = getQuestionAleatoire();
-            reponseQuestion(question);
-            personnage.AfficheJauges();
-        }
+        // tirage des questions, boucle principale tours du jeu
+        boucle_jeu();
 
         // fin du jeu
-        System.out.println(
-                personnage.getNom()
-                        + " a perdu ! Son règne a duré "
-                        +nbTours
-                        + " tours");
+        fin_partie();
 
     }
 
@@ -63,6 +56,24 @@ public class Reigns {
                 +" "+personnage.getNom());
 
         personnage.AfficheJauges();
+    }
+
+    private static void boucle_jeu(){
+        int nbTours = 0;
+        while(!personnage.finDuJeu()){
+            nbTours++;
+            Question question = getQuestionAleatoire();
+            reponseQuestion(question);
+            personnage.AfficheJauges();
+        }
+    }
+
+    private static void fin_partie(){
+        System.out.println(
+                personnage.getNom()
+                        + " a perdu ! Son règne a duré "
+                        +nbTours
+                        + " tours");
     }
 
     /**
