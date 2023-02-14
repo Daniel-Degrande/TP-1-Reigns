@@ -50,6 +50,8 @@ public class Personnage {
         jaugeFinance = new Jauge("Finances", 15 + (int)(Math.random() * (35 - 15)));
     }
 
+
+
     /**
      * Affiche les jauges de Clergé, Peuple, Armée et Finances du personnage.
      */

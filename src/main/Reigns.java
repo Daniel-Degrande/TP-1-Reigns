@@ -30,18 +30,7 @@ public class Reigns {
     public static void main(String[] args){
 
         // début du jeu
-        System.out.println("Bienvenue sur Reigns");
-
-        initBanqueQuestions();
-
-        System.out.println("Création du personnage...");
-
-        initPersonnage();
-
-        System.out.println(personnage.getGenre().longRegne()
-                +" "+personnage.getNom());
-
-        personnage.AfficheJauges();
+        initialiser_partie();
 
         // tirage des questions
         int nbTours = 0;
@@ -59,6 +48,21 @@ public class Reigns {
                         +nbTours
                         + " tours");
 
+    }
+
+    private static void initialiser_partie(){
+        System.out.println("Bienvenue sur Reigns");
+
+        initBanqueQuestions();
+
+        System.out.println("Création du personnage...");
+
+        initPersonnage();
+
+        System.out.println(personnage.getGenre().longRegne()
+                +" "+personnage.getNom());
+
+        personnage.AfficheJauges();
     }
 
     /**
