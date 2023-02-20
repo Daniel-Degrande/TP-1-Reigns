@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cf6c50e-34d3-4b0b-9d82-d863df7dfc0a" name="Changes" comment="">
+    <list default="true" id="8cf6c50e-34d3-4b0b-9d82-d863df7dfc0a" name="Changes" comment="Découpage du main en trois fonctions : débu_partie,boucle,fin_partie">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Reigns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Reigns.java" afterDir="false" />
     </list>
@@ -52,7 +52,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676379598100</updated>
-      <workItem from="1676379599804" duration="2310000" />
+      <workItem from="1676379599804" duration="3079000" />
+      <workItem from="1676898396020" duration="4984000" />
     </task>
     <task id="LOCAL-00001" summary="étape découpage du main">
       <created>1676381682394</created>
@@ -61,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676381682394</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Découpage du main en trois fonctions : débu_partie,boucle,fin_partie">
+      <created>1676381985730</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676381985730</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,6 +77,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="étape découpage du main" />
-    <option name="LAST_COMMIT_MESSAGE" value="étape découpage du main" />
+    <MESSAGE value="Découpage du main en trois fonctions : débu_partie,boucle,fin_partie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Découpage du main en trois fonctions : débu_partie,boucle,fin_partie" />
   </component>
 </project>
