@@ -71,6 +71,8 @@ public class Jauge {
         this.valeur = valeur;
     }
 
+    public void incrementeValeur(int delta) { this.valeur += delta; }
+
     /**
      * Retourne le type de la jauge.
      *
@@ -104,4 +106,9 @@ public class Jauge {
         resultat += this.nom;
         System.out.println(resultat);
     }
+
+    public boolean estDepassee(){
+        return this.valeur <= 0 || this.valeur >= 50;
+    }
+
 }

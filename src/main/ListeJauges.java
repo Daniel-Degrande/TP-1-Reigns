@@ -1,3 +1,5 @@
+package main;
+
 import main.Jauge;
 import main.TypeJauge;
 
@@ -34,10 +36,19 @@ public class ListeJauges {
     }
 
     public void afficherTout(){
-        for(Map.Entry<TypeJauge,Jauge> paire : liste.entrySet()){
+        for(Map.Entry<TypeJauge,Jauge> paire : this.liste.entrySet()){
             Jauge la_jauge = paire.getValue();
             la_jauge.afficheJauge();
         }
+    }
+
+    public boolean uneJaugeEstDepassee(){
+        boolean res = false;
+        for(Map.Entry<TypeJauge,Jauge> paire : this.liste.entrySet()){
+            Jauge la_jauge = paire.getValue();
+            res = res || la_jauge.estDepassee();
+        }
+        return res;
     }
 
 }
