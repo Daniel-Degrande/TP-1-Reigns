@@ -20,6 +20,10 @@ public class Jauge {
      */
     protected int valeur;
 
+    final static public int valInitJauge(int borneInf,int borneSup){
+        return borneInf + (int)(Math.random() * (borneSup - borneInf));
+    }
+
     /**
      * Crée une nouvelle jauge avec le nom et la valeur spécifiés.
      *
@@ -83,5 +87,21 @@ public class Jauge {
      */
     public void setType(TypeJauge type) {
         this.type = type;
+    }
+
+    private void afficheJauge(Jauge jauge) {
+        String resultat = "[";
+        // valeur : ####
+        for(int i=0;i<jauge.getValeur();i++){
+            resultat += "#";
+        }
+        // on complète avec ____
+        for(int i=0;i<50-(jauge.getValeur());i++){
+            resultat += "_";
+        }
+        resultat += "] ";
+        // affichage du nom
+        resultat += jauge.getNom();
+        System.out.println(resultat);
     }
 }
