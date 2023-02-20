@@ -29,5 +29,15 @@ public class ListeJauges {
         }
     }
 
+    public Jauge getJaugeSelonType(TypeJauge typeCible){
+        return this.liste.get(typeCible);
+    }
+
+    public void afficherTout(){
+        for(Map.Entry<TypeJauge,Jauge> paire : liste.entrySet()){
+            Jauge la_jauge = paire.getValue();
+            la_jauge.afficheJauge();
+        }
+    }
 
 }

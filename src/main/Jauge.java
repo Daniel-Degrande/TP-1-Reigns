@@ -89,19 +89,19 @@ public class Jauge {
         this.type = type;
     }
 
-    private void afficheJauge(Jauge jauge) {
+    public void afficheJauge() {
         String resultat = "[";
         // valeur : ####
-        for(int i=0;i<jauge.getValeur();i++){
+        for(int i=0;i<this.valeur;i++){
             resultat += "#";
         }
         // on complète avec ____
-        for(int i=0;i<50-(jauge.getValeur());i++){
+        for(int i=0;i<50-(this.valeur);i++){
             resultat += "_";
         }
         resultat += "] ";
         // affichage du nom
-        resultat += jauge.getNom();
+        resultat += this.nom;
         System.out.println(resultat);
     }
 }
