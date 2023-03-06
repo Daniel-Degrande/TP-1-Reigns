@@ -29,7 +29,7 @@ public class InterfaceTexte {
             System.out.println(question);
             System.out.flush();
             res = chercherDansReponses(fluxIn.nextLine(),reponses);
-            if(force != null){
+            if(force != null && res == null) {
                 return force;
             }
         }

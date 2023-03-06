@@ -36,8 +36,7 @@ public class Personnage {
                                                    "2",Genre.REINE
                                                 ),
                                         Genre.REINE /*  Force cette réponse si pas de réponse valide */ );
-
-        // Initialisation des jauges entre 15 et 35 points
+        System.out.println(this.genre);        // Initialisation des jauges entre 15 et 35 points
         this.les_jauges = new ListeJauges();
     }
 
