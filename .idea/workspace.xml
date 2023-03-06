@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cf6c50e-34d3-4b0b-9d82-d863df7dfc0a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/InterfaceTexte.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Jauge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Jauge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ListeJauges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ListeJauges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Reigns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Reigns.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/TypeJauge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/TypeJauge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +61,7 @@
       <updated>1676379598100</updated>
       <workItem from="1676379599804" duration="3079000" />
       <workItem from="1676898396020" duration="10918000" />
-      <workItem from="1678112875958" duration="705000" />
+      <workItem from="1678112875958" duration="2321000" />
     </task>
     <task id="LOCAL-00001" summary="étape découpage du main">
       <created>1676381682394</created>
@@ -108,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676907976315</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Longeur des Jauges plus simple à modifier (ajout constante dans classe Jauge)">
+      <created>1678113695745</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678113695745</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +125,7 @@
     <MESSAGE value="Ajout du constructeur de ListeJauges, mise en place de la liste d'initialisation des jauges globales (facilite la modification du nombre de jauge et leur type" />
     <MESSAGE value="Ajout des méthodes &quot;GetSelonType&quot; et &quot;afficherTout&quot; dans listeJauges + modification méthode &quot;afficher&quot; dans &quot;Jauge&quot; pour la rendre plus accessible pour les autres classes" />
     <MESSAGE value="Modification de l'application de la classe ListeJauges dans Question (suppression du switch)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modification de l'application de la classe ListeJauges dans Question (suppression du switch)" />
+    <MESSAGE value="Longeur des Jauges plus simple à modifier (ajout constante dans classe Jauge)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Longeur des Jauges plus simple à modifier (ajout constante dans classe Jauge)" />
   </component>
 </project>
