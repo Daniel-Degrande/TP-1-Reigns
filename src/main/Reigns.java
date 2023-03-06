@@ -33,13 +33,13 @@ public class Reigns {
     public static void main(String[] args){
 
         // début du jeu
-        //initialiser_partie();
+        initialiser_partie();
 
         // tirage des questions, boucle principale (tours du jeu)
-        //boucle_jeu();
+        boucle_jeu();
 
         // fin du jeu
-        //fin_partie();
+        fin_partie();
 
     }
 

@@ -13,14 +13,13 @@ public class ListeJauges {
 
     private Map<TypeJauge, Jauge> liste;
 
+
     static private final Map<TypeJauge,String> types = Map.of(
             TypeJauge.ARMEE,"Armee",
             TypeJauge.CLERGE,"Clerge",
             TypeJauge.FINANCE,"Finance",
             TypeJauge.PEUPLE,"Peuple"
     );
-
-
 
     public ListeJauges(){
         this.liste = new TreeMap<TypeJauge, Jauge>();
