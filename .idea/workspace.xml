@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8cf6c50e-34d3-4b0b-9d82-d863df7dfc0a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Genre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/InterfaceTexte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/InterfaceTexte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Personnage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Reigns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Reigns.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
       <updated>1676379598100</updated>
       <workItem from="1676379599804" duration="3079000" />
       <workItem from="1676898396020" duration="10918000" />
-      <workItem from="1678112875958" duration="2638000" />
+      <workItem from="1678112875958" duration="4063000" />
     </task>
     <task id="LOCAL-00001" summary="étape découpage du main">
       <created>1676381682394</created>
@@ -119,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678115355397</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Ajout méthode &quot;saisieTexteLibre&quot; dans classe &quot;InterfaceTexte&quot;">
+      <created>1678115578620</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678115578620</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +144,7 @@
     <MESSAGE value="Modification de l'application de la classe ListeJauges dans Question (suppression du switch)" />
     <MESSAGE value="Longeur des Jauges plus simple à modifier (ajout constante dans classe Jauge)" />
     <MESSAGE value="Ajout classe &quot;InterfaceTexte&quot; -&gt; Sera utilisée pour gérer l'entrée du texte saisi au clavier (Et aussi pour retirer la gestion de la saisie clavier de la classe Reigns)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout classe &quot;InterfaceTexte&quot; -&gt; Sera utilisée pour gérer l'entrée du texte saisi au clavier (Et aussi pour retirer la gestion de la saisie clavier de la classe Reigns)" />
+    <MESSAGE value="Ajout méthode &quot;saisieTexteLibre&quot; dans classe &quot;InterfaceTexte&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout méthode &quot;saisieTexteLibre&quot; dans classe &quot;InterfaceTexte&quot;" />
   </component>
 </project>

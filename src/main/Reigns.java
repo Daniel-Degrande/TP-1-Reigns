@@ -120,7 +120,7 @@ public class Reigns {
             roiReine = Genre.REINE;
         }
 
-        Reigns.personnage = new Personnage(nom,roiReine);
+        Reigns.personnage = new Personnage();
     }
 
     /**

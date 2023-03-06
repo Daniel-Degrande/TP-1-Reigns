@@ -24,12 +24,11 @@ public class Personnage {
      * Crée un nouveau personnage avec le nom et le genre spécifiés,
      * puis initialise les jauges de Clergé, Peuple, Armée et Finances.
      *
-     * @param nom Le nom du personnage
-     * @param genre Le genre du personnage
      */
-    public Personnage(String nom, Genre genre) {
-        this.nom = nom;
-        this.genre = genre;
+    public Personnage() {
+
+        this.nom = InterfaceTexte.saisieTexteLibre("Entrez le nom du personnage: ");
+        this.genre = Genre.UNDEFINED;
 
         // Initialisation des jauges entre 15 et 35 points
         this.les_jauges = new ListeJauges();

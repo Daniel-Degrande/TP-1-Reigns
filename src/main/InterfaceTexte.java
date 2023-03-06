@@ -1,19 +1,35 @@
 package main;
 
+import java.util.Map;
 import java.util.Scanner;
 
 public class InterfaceTexte {
 
+    private static final Scanner fluxIn = new Scanner(System.in);
 
-    private Scanner fluxIn;
-    InterfaceTexte(){
-        fluxIn = new Scanner(System.in);
-    }
-
-    public String saisieTexteLibre(String question){
+    public static String saisieTexteLibre(String question){
         System.out.println(question);
         System.out.flush();
-        String res = fluxIn.nextLine();
+        return fluxIn.nextLine();
+    }
+
+    public static Object chercherDansReponses(String test,Map<String,Object> reponses){
+        for(Map.Entry<String,Object> paire : reponses.entrySet()){
+            if(test.equals(paire.getKey())){
+                return paire.getValue();
+            }
+        }
+        return null;
+    }
+
+    public static Object reponseQCM(String question, Map<String,Object> reponses){
+        boolean reponseValide = false;
+        Object res = null;
+        while(res == null){
+            System.out.println(question);
+            System.out.flush();
+            res = chercherDansReponses(fluxIn.nextLine(),reponses);
+        }
         return res;
     }
 }

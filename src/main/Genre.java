@@ -14,7 +14,9 @@ public enum Genre {
     /**
      * Genre féminin
      */
-    REINE;
+    REINE,
+
+    UNDEFINED;
 
     /**
      * Retourne une chaîne de caractères indiquant "Long règne au roi" ou "Long règne à la reine"
