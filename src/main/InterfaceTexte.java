@@ -10,7 +10,10 @@ public class InterfaceTexte {
         fluxIn = new Scanner(System.in);
     }
 
-    public String entrerTexteLibre(String Question){
-        return "";
+    public String saisieTexteLibre(String question){
+        System.out.println(question);
+        System.out.flush();
+        String res = fluxIn.nextLine();
+        return res;
     }
 }
