@@ -50,7 +50,7 @@ public class Reigns {
 
         System.out.println("Création du personnage...");
 
-        initPersonnage();
+        Reigns.personnage = new Personnage();
 
         System.out.println(personnage.getGenre().longRegne()
                 +" "+personnage.getNom());
@@ -106,21 +106,7 @@ public class Reigns {
      */
 
     private static void initPersonnage(){
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Entrez le nom du personnage: ");
-        System.out.flush();
-        String nom = scanner.nextLine();
-        System.out.println(
-                "Faut-il vous appeler Roi ou Reine ? (1 pour Roi, 2 pour Reine)");
-        int genre = scanner.nextInt();
-        Genre roiReine;
-        if(genre==1){
-            roiReine = Genre.ROI;
-        }else{
-            roiReine = Genre.REINE;
-        }
 
-        Reigns.personnage = new Personnage();
     }
 
     /**

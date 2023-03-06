@@ -22,13 +22,16 @@ public class InterfaceTexte {
         return null;
     }
 
-    public static Object reponseQCM(String question, Map<String,Object> reponses){
+    public static Object reponseQCM(String question, Map<String,Object> reponses,Object force){
         boolean reponseValide = false;
         Object res = null;
         while(res == null){
             System.out.println(question);
             System.out.flush();
             res = chercherDansReponses(fluxIn.nextLine(),reponses);
+            if(force != null){
+                return force;
+            }
         }
         return res;
     }

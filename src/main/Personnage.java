@@ -1,5 +1,7 @@
 package main;
 
+import java.util.Map;
+
 /**
  * Représente un personnage ayant un nom, un genre, et des jauges de Clergé, Peuple, Armée et Finances.
  *
@@ -28,7 +30,12 @@ public class Personnage {
     public Personnage() {
 
         this.nom = InterfaceTexte.saisieTexteLibre("Entrez le nom du personnage: ");
-        this.genre = Genre.UNDEFINED;
+        this.genre = (Genre)InterfaceTexte.reponseQCM("Faut-il vous appeler Roi ou Reine ? (1 pour Roi, 2 pour Reine)",
+                                                Map.of(
+                                                   "1",Genre.ROI,
+                                                   "2",Genre.REINE
+                                                ),
+                                        Genre.REINE /*  Force cette réponse si pas de réponse valide */ );
 
         // Initialisation des jauges entre 15 et 35 points
         this.les_jauges = new ListeJauges();
