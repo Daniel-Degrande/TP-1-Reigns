@@ -5,6 +5,10 @@ import java.util.ArrayList;
 public class BanqueQuestion {
     private static ArrayList<Question> liste;
 
+    /*
+     * Cette fonction initialise la banque de questions. Elle crée les questions et les ajoute à la banque.
+     */
+
     public void initListe(){
         Question question1 = new Question(
                 "Main du roi",
@@ -56,9 +60,13 @@ public class BanqueQuestion {
     }
 
     public BanqueQuestion() {
+        liste = new ArrayList<>();
         initListe();
     }
-
+    /*
+     * Cette fonction permet de tirer une question aléatoire dans la banque de questions.
+     * @return Une question aléatoire
+     */
     public Question getQuestionAleatoire(){
         int numQuestion = (int) (Math.random()*liste.size());
         return liste.get(numQuestion);

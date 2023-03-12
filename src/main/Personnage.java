@@ -43,7 +43,7 @@ public class Personnage {
 
 
     /**
-     * Affiche les jauges de Clergé, Peuple, Armée et Finances du personnage.
+     * Affiche les jauges du personnage.
      */
     public void AfficheJauges() {
         les_jauges.afficherTout();
@@ -51,7 +51,7 @@ public class Personnage {
     }
 
     /**
-     * Vérifie si le jeu est fini en vérifiant si une des jauges est à 0 ou 50.
+     * Vérifie si le jeu est fini en vérifiant si une des jauges est à 0 ou LONGUEUR_JAUGE.
      *
      * @return true si le jeu est fini, false sinon
      */

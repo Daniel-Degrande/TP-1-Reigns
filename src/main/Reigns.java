@@ -47,7 +47,7 @@ public class Reigns {
     private static void initialiser_partie(){
         System.out.println("Bienvenue sur Reigns");
 
-        questions.initListe();
+        questions = new BanqueQuestion();
 
         System.out.println("Création du personnage...");
 
@@ -103,21 +103,5 @@ public class Reigns {
             question.appliqueEffetsDroite(personnage);
         }
     }
-
-    /*
-     * Cette fonction permet d'initialiser le personnage joué. Elle demande à l'utilisateur de saisir le nom du personnage
-     * et le genre (Roi ou Reine). Elle crée ensuite le personnage.
-     */
-
-
-    /*
-     * Cette fonction initialise la banque de questions. Elle crée les questions et les ajoute à la banque.
-     */
-
-
-    /*
-     * Cette fonction permet de tirer une question aléatoire dans la banque de questions.
-     * @return Une question aléatoire
-     */
 
 }

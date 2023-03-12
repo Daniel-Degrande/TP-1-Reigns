@@ -20,7 +20,7 @@ public class Jauge {
      */
     protected int valeur;
 
-    private static final int LONGEUR_JAUGE = 50;
+    private static final int LONGUEUR_JAUGE = 50;
 
     static public int valInitJauge(int borneInf,int borneSup){
         return borneInf + (int)(Math.random() * (borneSup - borneInf));
@@ -100,7 +100,7 @@ public class Jauge {
             resultat += "#";
         }
         // on complète avec ____
-        for(int i=0;i<LONGEUR_JAUGE-(this.valeur);i++){
+        for(int i=0;i<LONGUEUR_JAUGE-(this.valeur);i++){
             resultat += "_";
         }
         resultat += "] ";
@@ -110,7 +110,7 @@ public class Jauge {
     }
 
     public boolean estDepassee(){
-        return this.valeur <= 0 || this.valeur >= LONGEUR_JAUGE;
+        return this.valeur <= 0 || this.valeur >= LONGUEUR_JAUGE;
     }
 
 }
