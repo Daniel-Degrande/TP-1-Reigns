@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8cf6c50e-34d3-4b0b-9d82-d863df7dfc0a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/InterfaceTexte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/InterfaceTexte.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Personnage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Reigns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Reigns.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,8 @@
       <updated>1676379598100</updated>
       <workItem from="1676379599804" duration="3079000" />
       <workItem from="1676898396020" duration="10918000" />
-      <workItem from="1678112875958" duration="5241000" />
+      <workItem from="1678112875958" duration="5284000" />
+      <workItem from="1678638851728" duration="436000" />
     </task>
     <task id="LOCAL-00001" summary="étape découpage du main">
       <created>1676381682394</created>
@@ -141,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678117885433</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="correction méthode &quot;réponseQCM&quot;">
+      <created>1678118183628</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678118183628</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +167,7 @@
     <MESSAGE value="Ajout méthode &quot;saisieTexteLibre&quot; dans classe &quot;InterfaceTexte&quot;" />
     <MESSAGE value="Ajout méthodes &quot;chercherDansReponses&quot; et &quot;reponseQCM&quot; dans &quot;InterfaceTexte&quot;" />
     <MESSAGE value="suppression de la méthode &quot;InitPersonnage&quot; dans la classe Reigns. La création du personnage (y compris le formulaire) est déplacée dans le constructeur de Personnage" />
-    <option name="LAST_COMMIT_MESSAGE" value="suppression de la méthode &quot;InitPersonnage&quot; dans la classe Reigns. La création du personnage (y compris le formulaire) est déplacée dans le constructeur de Personnage" />
+    <MESSAGE value="correction méthode &quot;réponseQCM&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction méthode &quot;réponseQCM&quot;" />
   </component>
 </project>

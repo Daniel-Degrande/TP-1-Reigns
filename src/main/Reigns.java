@@ -1,6 +1,7 @@
 package main;
 
 import java.util.ArrayList;
+import java.util.Map;
 import java.util.Scanner;
 
 /**
@@ -84,14 +85,17 @@ public class Reigns {
      */
     private static void reponseQuestion(Question question){
         question.afficheQuestion();
-        // récupère la réponse
-        Scanner scanner = new Scanner(System.in);
         String reponse = "";
-        while(!reponse.equals("G") && !reponse.equals("D")){
-            System.out.println("Entrez la réponse (G ou D)");
-            System.out.flush();
-            reponse = scanner.nextLine();
-        }
+
+        // récupère la réponse
+
+        reponse = (String)InterfaceTexte.reponseQCM("Entrez la réponse (G ou D)",
+                Map.of(
+                        "G","G",
+                        "D","D"
+                ),
+                null  /*  On ne force pas de réponse, on repose la question j'usqu'à obtenir réusltat valide */ );
+
         // applique les malus
         if(reponse.equals("G")){
             question.appliqueEffetsGauche(personnage);
