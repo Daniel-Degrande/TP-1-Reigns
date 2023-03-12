@@ -1,9 +1,11 @@
 package main;
 
 abstract public class StrategieEffet {
-    protected static Personnage PERSO_CIBLE;
+
 
     abstract void strategieEffet();
+
+    abstract String afficherEffet();
 
     void appliquerEffet(){
         strategieEffet();

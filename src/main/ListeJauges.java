@@ -21,6 +21,10 @@ public class ListeJauges {
             TypeJauge.PEUPLE,"Peuple"
     );
 
+    public static Map<TypeJauge,String> getNomTypeJauge(){
+        return types;
+    }
+
     public ListeJauges(){
         this.liste = new TreeMap<TypeJauge, Jauge>();
         for(Map.Entry<TypeJauge,String> paire : types.entrySet()){

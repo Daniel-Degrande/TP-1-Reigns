@@ -7,8 +7,10 @@ import static main.Jauge.valInitJauge;
 public class AlterationJauge extends StrategieEffet{
     private Map<TypeJauge,Integer> jaugesCibles;
 
+    static Personnage PERSO_CIBLE;
+
     public AlterationJauge(Map<TypeJauge, Integer> jaugesCibles) {
-        jaugesCibles = jaugesCibles;
+        this.jaugesCibles = jaugesCibles;
     }
 
     @Override
@@ -19,5 +21,14 @@ public class AlterationJauge extends StrategieEffet{
             PERSO_CIBLE.getJaugeSelonType(type).incrementeValeur(valeur);
         }
         //super.PERSO_CIBLE.;
+    }
+
+    @Override
+    String afficherEffet() {
+        String res = "";
+        for(Map.Entry<TypeJauge,Integer> paire : jaugesCibles.entrySet()){
+            res += ListeJauges.getNomTypeJauge().get(paire.getKey()) + " : " + paire.getValue().toString() + " ; ";
+        }
+        return res;
     }
 }

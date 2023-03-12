@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cf6c50e-34d3-4b0b-9d82-d863df7dfc0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Effet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/StrategieEffet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AlterationJauge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AlterationJauge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/BanqueQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BanqueQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Jauge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Jauge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Personnage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Effet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Effet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ListeJauges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ListeJauges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Question.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Reigns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Reigns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/StrategieEffet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/StrategieEffet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,7 @@
       <workItem from="1676379599804" duration="3079000" />
       <workItem from="1676898396020" duration="10918000" />
       <workItem from="1678112875958" duration="5284000" />
-      <workItem from="1678638851728" duration="3832000" />
+      <workItem from="1678638851728" duration="8316000" />
     </task>
     <task id="LOCAL-00001" summary="étape découpage du main">
       <created>1676381682394</created>
@@ -167,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678641222574</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Ajout de classes permettant de rendre l'action des effets abstraits.">
+      <created>1678643059317</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678643059317</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +196,7 @@
     <MESSAGE value="correction méthode &quot;réponseQCM&quot;" />
     <MESSAGE value="simplification méthode &quot;reponseQuestion&quot; dans Reigns.java" />
     <MESSAGE value="Déplacement méthodes &quot;initBanqueQuestion&quot; et &quot;getQuestionAleatoire&quot; dans BanqueQuestion.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Déplacement méthodes &quot;initBanqueQuestion&quot; et &quot;getQuestionAleatoire&quot; dans BanqueQuestion.java" />
+    <MESSAGE value="Ajout de classes permettant de rendre l'action des effets abstraits." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de classes permettant de rendre l'action des effets abstraits." />
   </component>
 </project>

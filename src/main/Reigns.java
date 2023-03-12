@@ -53,6 +53,8 @@ public class Reigns {
 
         Reigns.personnage = new Personnage();
 
+        AlterationJauge.PERSO_CIBLE = Reigns.personnage;
+
         System.out.println(personnage.getGenre().longRegne()
                 +" "+personnage.getNom());
 
