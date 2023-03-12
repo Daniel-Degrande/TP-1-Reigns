@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cf6c50e-34d3-4b0b-9d82-d863df7dfc0a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/BanqueQuestion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Personnage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Reigns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Reigns.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +63,7 @@
       <workItem from="1676379599804" duration="3079000" />
       <workItem from="1676898396020" duration="10918000" />
       <workItem from="1678112875958" duration="5284000" />
-      <workItem from="1678638851728" duration="436000" />
+      <workItem from="1678638851728" duration="2245000" />
     </task>
     <task id="LOCAL-00001" summary="étape découpage du main">
       <created>1676381682394</created>
@@ -149,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678118183628</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="simplification méthode &quot;reponseQuestion&quot; dans Reigns.java">
+      <created>1678639481418</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678639481418</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +175,7 @@
     <MESSAGE value="Ajout méthodes &quot;chercherDansReponses&quot; et &quot;reponseQCM&quot; dans &quot;InterfaceTexte&quot;" />
     <MESSAGE value="suppression de la méthode &quot;InitPersonnage&quot; dans la classe Reigns. La création du personnage (y compris le formulaire) est déplacée dans le constructeur de Personnage" />
     <MESSAGE value="correction méthode &quot;réponseQCM&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction méthode &quot;réponseQCM&quot;" />
+    <MESSAGE value="simplification méthode &quot;reponseQuestion&quot; dans Reigns.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="simplification méthode &quot;reponseQuestion&quot; dans Reigns.java" />
   </component>
 </project>
